@@ -73,10 +73,10 @@ levels(factor_vector)
 
     ## [1] "1" "2" "3"
 
-\#Dataframe Initialization
+\#Tibble Initialization
 
 ``` r
-#Now I am going to make the dataframe
+#Now I am going to make the tibble
 homework_one_df <- tibble(
   sample, logical_vector, character_vector, factor_vector
 )
@@ -90,7 +90,7 @@ homework_one_df <- tibble(
 mean (sample) 
 ```
 
-    ## [1] 0.2131271
+    ## [1] 0.2084896
 
 ``` r
 #Here I check the mean of the logical vector
@@ -131,7 +131,7 @@ mean(factor_vector)
 homework_one_df %>% pull (sample) %>% mean() 
 ```
 
-    ## [1] 0.2131271
+    ## [1] 0.2084896
 
 ``` r
 #A pipeline to check the mean of the logical vector
