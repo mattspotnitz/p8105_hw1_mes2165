@@ -90,14 +90,14 @@ homework_one_df <- tibble(
 mean (sample) 
 ```
 
-    ## [1] -0.6425388
+    ## [1] 0.2131271
 
 ``` r
 #Here I check the mean of the logical vector
 mean(logical_vector) 
 ```
 
-    ## [1] 0.4
+    ## [1] 0.7
 
 ``` r
 #Here I check the mean of the character vector
@@ -131,14 +131,14 @@ mean(factor_vector)
 homework_one_df %>% pull (sample) %>% mean() 
 ```
 
-    ## [1] -0.6425388
+    ## [1] 0.2131271
 
 ``` r
 #A pipeline to check the mean of the logical vector
 homework_one_df %>% pull (logical_vector) %>% mean() 
 ```
 
-    ## [1] 0.4
+    ## [1] 0.7
 
 ``` r
 #A pipeline to check the mean of the character vector
@@ -194,7 +194,7 @@ ncol(penguins)
     ## [1] 8
 
 ``` r
-#These outputs verify the dimensions of the penguins are 344 x 8
+#These outputs verify the dimensions of the penguins are 344 x 8.
 #Here I will calculate the mean flipper length
 penguins %>% pull (flipper_length_mm) %>% mean()
 ```
@@ -202,7 +202,7 @@ penguins %>% pull (flipper_length_mm) %>% mean()
     ## [1] NA
 
 ``` r
-#Since the output was "NA" I will inspect the data for that column
+#Since the output was "NA" I will inspect the data for that column.
 penguins %>% pull (flipper_length_mm)
 ```
 
