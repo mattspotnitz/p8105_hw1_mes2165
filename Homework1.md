@@ -90,14 +90,14 @@ homework_one_df <- tibble(
 mean (sample) 
 ```
 
-    ## [1] 0.212684
+    ## [1] -0.6425388
 
 ``` r
 #Here I check the mean of the logical vector
 mean(logical_vector) 
 ```
 
-    ## [1] 0.5
+    ## [1] 0.4
 
 ``` r
 #Here I check the mean of the character vector
@@ -131,14 +131,14 @@ mean(factor_vector)
 homework_one_df %>% pull (sample) %>% mean() 
 ```
 
-    ## [1] 0.212684
+    ## [1] -0.6425388
 
 ``` r
 #A pipeline to check the mean of the logical vector
 homework_one_df %>% pull (logical_vector) %>% mean() 
 ```
 
-    ## [1] 0.5
+    ## [1] 0.4
 
 ``` r
 #A pipeline to check the mean of the character vector
